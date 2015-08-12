@@ -9,6 +9,8 @@ head(lang="en")
 	script(src="jq-animate.js")
 
 body
+	script(type='text/javascript').
+		startTimer()
 	.container-fluid
 		header
 		nav.navbar.navbar-default
@@ -37,10 +39,9 @@ body
 				.col-sm-12#lg-panel-xs.text-center
 					p Hello everynyan, how are you? 
 					button(type="button").btn.btn-xs Default button
-
-	.container
-		.col-sm-12
-			.hidden-xs
+	.hidden-xs     
+		.container
+			.col-sm-12
 				article
 					header
 						#header-animate
@@ -49,15 +50,20 @@ body
 					#article-p-animate
 						p Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio in elit consectetur facilisis. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Aliquam sit amet imperdiet justo. Vivamus elit lorem, sagittis eu ligula at, tincidunt venenatis odio. Ut auctor dolor quis nisl placerat, et elementum urna pellentesque. Mauris cursus pulvinar tortor, vitae auctor nisl. Ut sed arcu nibh. Nullam non ullamcorper mauris.
 
+						blockquote There is thousands of jobs, yet you will never get one, loser.
+
 						p Donec eu nulla faucibus, aliquam arcu vitae, accumsan est. Ut mollis massa ac ornare consectetur. Fusce molestie tincidunt lectus, eu varius dui vehicula facilisis. Etiam lobortis eleifend egestas. In eu vulputate lorem, eget elementum dui. Phasellus a erat sapien. Donec eget ipsum lacus.
 
-			.visible-xs
-				article
+	 .visible-xs
+		 .container-fluid
+			 article
 					.header-xs
 						#header-animate-xs
 							time(datetime="", pubdate).time-xs Today
 							h1 Placeholder title
 					#article-p-animate-xs
 						p Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio in elit consectetur facilisis. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Aliquam sit amet imperdiet justo. Vivamus elit lorem, sagittis eu ligula at, tincidunt venenatis odio. Ut auctor dolor quis nisl placerat, et elementum urna pellentesque. Mauris cursus pulvinar tortor, vitae auctor nisl. Ut sed arcu nibh. Nullam non ullamcorper mauris.
+
+						blockquote There is thousands of jobs, yet you will never get one, loser.
 
 						p Donec eu nulla faucibus, aliquam arcu vitae, accumsan est. Ut mollis massa ac ornare consectetur. Fusce molestie tincidunt lectus, eu varius dui vehicula facilisis. Etiam lobortis eleifend egestas. In eu vulputate lorem, eget elementum dui. Phasellus a erat sapien. Donec eget ipsum lacus.
