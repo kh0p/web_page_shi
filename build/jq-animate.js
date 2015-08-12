@@ -9,5 +9,9 @@ $(document).ready(function(){
   
   $('#header-animate').addClass('animated fadeInLeft')
   
+  $('#header-animate-xs').addClass('animated fadeInLeft')
+  
   $('#article-p-animate').addClass('animated fadeInLeft')
+  
+  $('#article-p-animate-xs').addClass('animated fadeInLeft')
 }); 
